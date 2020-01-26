@@ -8,7 +8,6 @@ My friend sent me this motivational message because the CTF organizers made this
 
 The hint is a link to : https://github.com/JEF1056/riceteacatpanda/tree/master/Motivational Message (200)
 
-
 ## Solution
 
 Get the file from github
@@ -56,7 +55,7 @@ too much lines before
 00040d86
 ```
 
-Can you see the GNP ? this remenber PNG in reverse, the let's `reverse` the file
+Can you see the GNP ? this remenber PNG in reverse, then let's `reverse` the file
 
 ```
 $ cat reverse.py
@@ -72,7 +71,7 @@ motivation.png: PNG image data, 1000 x 941, 8-bit/color RGBA, non-interlaced
 
 We found the image:
 
-![Motivation PNG](motivation.png)
+![Motivation PNG](https://raw.githubusercontent.com/neriberto/writeups/master/riceteacatpanda/motivation/motivation.png)
 
 And the last step, to get the flag:
 
